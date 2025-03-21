@@ -6857,7 +6857,7 @@ k.aE()
 k.NM(j,j,r)
 s.ay$!==$&&A.a9()
 s.ay$=k
-l=k}s.JX(new A.ur(p,new A.r2(new A.rd(j),j),o,l,j))
+l=k}s.JX(new A.ur(p,new A.r2(new A.rd(j),"Muh. Taufiq Mukhtar Site",j),o,l,j))
 s.zr()},
 rd:function rd(a){this.a=a},
 AN:function AN(){this.c=this.a=null},
@@ -8381,8 +8381,9 @@ Dt:function Dt(){},
 aj2(){return new A.qu(new A.Qv(),A.w(t.K,t.cP))},
 YN:function YN(a,b){this.a=a
 this.b=b},
-r2:function r2(a,b){this.e=a
-this.a=b},
+r2:function r2(a,b,c){this.e=a
+this.cx=b
+this.a=c},
 Qv:function Qv(){},
 SX:function SX(){},
 vi:function vi(){this.d=$
@@ -31241,7 +31242,7 @@ b=o}}s[b]=a}}
 A.rd.prototype={
 aj(){return new A.AN()}}
 A.AN.prototype={
-S(a){var s,r,q,p=17976931348623157e292,o=null,n=t.nA,m=A.hT(A.lh(A.b([A.q9(A.a5m(A.pq(A.b([A.lh(B.jA,B.a5,B.au)],n),B.be,B.a5,B.au),B.j,o,o,o,o,o),1),A.q9(A.a5m(A.pq(A.b([A.lh(B.jA,B.a5,B.au)],n),B.be,B.a5,B.au),B.CQ,o,o,o,o,o),1)],n),B.a5,B.au),p,p),l=A.u1("WHO AM I?",A.eO(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.bN,o,o,!0,o,o,o,o,o,o,o,o)),k=A.a5m(new A.qy(A.aks(o,o,new A.p_("assets/taufiq_picture.png",o,o)),B.vo,o),o,o,200,o,o,o),j=A.eO(o,o,B.j,o,o,o,o,o,o,o,o,13,o,o,o,o,o,!0,o,1.5,o,o,o,o,o,o),i=t.nO
+S(a){var s,r,q,p=17976931348623157e292,o=null,n=t.nA,m=A.hT(A.lh(A.b([A.q9(A.a5m(A.pq(A.b([A.lh(B.jA,B.a5,B.au)],n),B.be,B.a5,B.au),B.j,o,o,o,o,o),1),A.q9(A.a5m(A.pq(A.b([A.lh(B.jA,B.a5,B.au)],n),B.be,B.a5,B.au),B.CQ,o,o,o,o,o),1)],n),B.a5,B.au),p,p),l=A.u1("WHO AM I?",A.eO(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.bN,o,o,!0,o,o,o,o,o,o,o,o)),k=A.a5m(new A.qy(A.aks(o,o,new A.p_("assets/taufiq_picture.png",o,o)),B.vo,o),o,o,230,o,o,o),j=A.eO(o,o,B.j,o,o,o,o,o,o,o,o,13,o,o,o,o,o,!0,o,1.5,o,o,o,o,o,o),i=t.nO
 j=A.CG(B.hR,A.b([new A.cH(new A.aT(0,0,0,20),k,o),A.UN(0,A.Lx(new A.cH(new A.aT(10,10,10,10),A.n5(o,o,o,B.bz,o,o,!0,o,A.eg(A.b([A.eg(o,o,"My Name is Muh."),A.eg(o,A.eO(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.bN,o,o,!0,o,o,o,o,o,o,o,o)," Taufiq "),A.eg(o,o,"Mukhtar")],i),j,o),B.ag,o,o,B.W,B.aw),o),B.CO,o),o,o,o,o,o,o)],n),B.Q,B.em)
 k=A.eO(o,o,B.aP,o,o,o,o,o,o,o,o,13,o,o,B.bN,o,o,!0,o,1.5,o,o,o,o,o,o)
 k=A.lh(A.b([A.n5(o,o,o,B.bz,o,o,!0,o,A.eg(A.b([A.eg(o,o,"Currently Tech Stack :")],i),k,o),B.ag,o,o,B.W,B.aw)],n),B.dQ,B.au)
@@ -34084,11 +34085,11 @@ k.a.toString
 $.adK()
 l=new A.oR(o,l,B.ac,B.a8,j,j)
 return new A.tj(A.Ml(l,m,j,j,n),j)},
-Or(a){var s,r=this,q=null,p=r.a
-p=p.e
+Or(a){var s,r=this,q=null,p=r.a,o=p.e
+p=p.cx
 s=r.gSz()
 r.a.toString
-return new A.ut(q,q,q,new A.a1g(),q,q,q,q,q,p,B.CF,q,q,q,B.AQ,r.gSF(),"",q,B.II,B.aP,q,s,q,q,B.jt,!1,!1,q,q,q,new A.kv(r,t.By))},
+return new A.ut(q,q,q,new A.a1g(),q,q,q,q,q,o,B.CF,q,q,q,B.AQ,r.gSF(),p,q,B.II,B.aP,q,s,q,q,B.jt,!1,!1,q,q,q,new A.kv(r,t.By))},
 S(a){var s,r=null,q=A.zz(!1,!1,this.Or(a),r,r,r,r,!0,r,r,r,new A.a1h(),r,r)
 this.a.toString
 s=this.d
