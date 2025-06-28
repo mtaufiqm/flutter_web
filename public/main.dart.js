@@ -29491,7 +29491,7 @@ case 3:p=c
 if(p==null)p=""
 o=t.N
 s=4
-return A.q($.a27().VH("GET",A.e_("http://bpsluwu.id:8080"+a,0,null),A.aj(["Authorization","Bearer "+p],o,o)),$async$hp)
+return A.q($.a27().VH("GET",A.e_("https://api.bpsluwu.id"+a,0,null),A.aj(["Authorization","Bearer "+p],o,o)),$async$hp)
 case 4:q=c
 s=1
 break
@@ -29509,7 +29509,7 @@ if(p==null)p=""
 A.bG("JSON ENCODE "+B.ar.wQ(b,null))
 o=t.N
 s=4
-return A.q($.a27().pb("POST",A.e_("http://bpsluwu.id:8080"+a,0,null),A.aj(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o),B.ar.wQ(b,null),null),$async$lL)
+return A.q($.a27().pb("POST",A.e_("https://api.bpsluwu.id"+a,0,null),A.aj(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o),B.ar.wQ(b,null),null),$async$lL)
 case 4:q=d
 s=1
 break
@@ -29527,7 +29527,7 @@ if(p==null)p=""
 A.bG("JSON ENCODE "+B.ar.wQ(b,null))
 o=t.N
 s=4
-return A.q($.a27().pb("PUT",A.e_("http://bpsluwu.id:8080"+a,0,null),A.aj(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o),B.ar.wQ(b,null),null),$async$Oc)
+return A.q($.a27().pb("PUT",A.e_("https://api.bpsluwu.id"+a,0,null),A.aj(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o),B.ar.wQ(b,null),null),$async$Oc)
 case 4:q=d
 s=1
 break
@@ -29542,7 +29542,7 @@ s=3
 return A.q(m,$async$Br)
 case 3:p=e
 if(p==null)p=""
-o=A.aYb("POST",A.e_("http://bpsluwu.id:8080"+a,0,null))
+o=A.aYb("POST",A.e_("https://api.bpsluwu.id"+a,0,null))
 m=A.aIZ(new A.hP(A.aHx(b,t.Cm)))
 n=A.Pr("application","octet-stream",null)
 o.y.push(new A.PA("files",b.length,c,n,m))
@@ -29568,7 +29568,7 @@ case 3:p=c
 if(p==null)p=""
 o=t.N
 s=4
-return A.q($.a27().pb("DELETE",A.e_("http://bpsluwu.id:8080"+a,0,null),A.aj(["Authorization","Bearer "+p],o,o),null,null),$async$Bq)
+return A.q($.a27().pb("DELETE",A.e_("https://api.bpsluwu.id"+a,0,null),A.aj(["Authorization","Bearer "+p],o,o),null,null),$async$Bq)
 case 4:q=c
 s=1
 break
@@ -95318,7 +95318,7 @@ m=A.dr(!0,B.af,!1,i,!0,B.p,i,A.dE(),m.b,i,i,i,i,i,2,A.bm(i,i,i,i,i,i,i,i,!0,i,i,
 l=j.d
 k=l.d
 l=l.c
-return A.iI(i,i,A.e3(i,A.ff(!0,A.bK(A.b([g,new A.aa(new A.R(5,0,5,0),A.hh(new A.a8(e.a.a*0.8,i,new A.aa(new A.R(15,15,15,15),A.bK(A.b([s,r,o,n,m,new A.a8(i,5,i,i),A.h_(new A.aeO(),new A.d3(k,A.j(k).i("d3<1>")),t.N),A.U(A.b([A.h_(new A.aeP(j),new A.d3(l,A.j(l).i("d3<1>")),t.y)],p),B.e,B.aX,B.i,0),A.U(A.b([new A.aF(1,B.w,A.be(i,i,i,B.x,i,i,!0,i,A.a7(A.b([A.a7(i,i,"Version "),A.a7(i,A.a9(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.a6,i,i,!0,i,i,i,i,i,i,i,i),"1.0.3")],q),A.a9(i,i,B.v,i,i,i,i,i,i,i,i,13,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i),B.q,i,i,B.o,B.u),i)],p),B.e,B.E,B.i,0)],p),B.e,B.E,B.i,10),i),i),i,i,i,new A.cu(f,B.D)),i)],p),B.e,B.E,B.i,0),B.a_,!0),B.I,i,new A.d5(i,i,i,i,i,new A.js(B.fY,B.dM,B.cp,h,i,i),B.aE),i,i,i,i,i,i,i),i,i,i,!1)}}
+return A.iI(i,i,A.e3(i,A.ff(!0,A.bK(A.b([g,new A.aa(new A.R(5,0,5,0),A.hh(new A.a8(e.a.a*0.8,i,new A.aa(new A.R(15,15,15,15),A.bK(A.b([s,r,o,n,m,new A.a8(i,5,i,i),A.h_(new A.aeO(),new A.d3(k,A.j(k).i("d3<1>")),t.N),A.U(A.b([A.h_(new A.aeP(j),new A.d3(l,A.j(l).i("d3<1>")),t.y)],p),B.e,B.aX,B.i,0),A.U(A.b([new A.aF(1,B.w,A.be(i,i,i,B.x,i,i,!0,i,A.a7(A.b([A.a7(i,i,"Version "),A.a7(i,A.a9(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.a6,i,i,!0,i,i,i,i,i,i,i,i),"1.0.4")],q),A.a9(i,i,B.v,i,i,i,i,i,i,i,i,13,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i),B.q,i,i,B.o,B.u),i)],p),B.e,B.E,B.i,0)],p),B.e,B.E,B.i,10),i),i),i,i,i,new A.cu(f,B.D)),i)],p),B.e,B.E,B.i,0),B.a_,!0),B.I,i,new A.d5(i,i,i,i,i,new A.js(B.fY,B.dM,B.cp,h,i,i),B.aE),i,i,i,i,i,i,i),i,i,i,!1)}}
 A.aeQ.prototype={
 $0(){this.a.e=!0},
 $S:0}
@@ -98254,7 +98254,7 @@ m=k.r
 n=A.U(A.b([A.bg(A.dr(!0,B.af,!1,j,!0,B.p,j,A.dE(),new A.bT(new A.b7(m.w,B.a2,B.Q),o),j,j,j,j,j,2,n,B.t,!0,j,!0,j,!1,j,B.ag,j,j,j,j,j,j,j,j,1,j,j,!1,"\u2022",j,j,j,j,j,!1,j,!0,j,!0,j,B.an,j,j,B.ad,B.a8,j,j,j,j,j,j,j,B.q,j,B.ap,j,j,j,j),1)],i),B.e,B.m,B.i,0)
 m=A.bm(j,new A.b9(4,B.R,B.L),j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,"Username",!0,j,A.a1(B.HR,j,j,j),j,j,j,j,j,j,j,j,j,j,j)
 l=k.r
-return A.iI(h,j,A.ff(!0,A.dL(new A.aa(new A.R(15,15,15,15),A.bK(A.b([s,r,q,p,n,A.U(A.b([A.bg(A.dr(!0,B.af,!1,j,!0,B.p,j,A.dE(),new A.bT(new A.b7(l.y,B.a2,B.Q),o),j,j,j,j,j,2,m,B.t,!0,j,!0,j,!1,j,B.ag,j,j,j,j,j,j,j,j,1,j,j,!1,"\u2022",j,j,j,j,j,!1,j,!0,j,!0,j,B.an,j,j,B.ad,B.a8,j,j,j,j,j,j,j,B.q,j,B.ap,j,j,j,j),1)],i),B.e,B.m,B.i,0),new A.a8(j,20,j,j),A.U(A.b([new A.aF(1,B.w,A.be(j,j,j,B.x,j,j,!0,j,A.a7(A.b([A.a7(j,j,"Version "),A.a7(j,A.a9(j,j,j,j,j,j,j,j,j,j,j,j,j,j,B.a6,j,j,!0,j,j,j,j,j,j,j,j),"1.0.3")],t.VO),A.a9(j,j,B.v,j,j,j,j,j,j,j,j,13,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j),B.q,j,j,B.o,B.u),j)],i),B.e,B.E,B.i,0)],i),B.e,B.m,B.i,15),j),g.a,B.t,j,j,B.T),B.a_,!0),j,j,j,j)}}
+return A.iI(h,j,A.ff(!0,A.dL(new A.aa(new A.R(15,15,15,15),A.bK(A.b([s,r,q,p,n,A.U(A.b([A.bg(A.dr(!0,B.af,!1,j,!0,B.p,j,A.dE(),new A.bT(new A.b7(l.y,B.a2,B.Q),o),j,j,j,j,j,2,m,B.t,!0,j,!0,j,!1,j,B.ag,j,j,j,j,j,j,j,j,1,j,j,!1,"\u2022",j,j,j,j,j,!1,j,!0,j,!0,j,B.an,j,j,B.ad,B.a8,j,j,j,j,j,j,j,B.q,j,B.ap,j,j,j,j),1)],i),B.e,B.m,B.i,0),new A.a8(j,20,j,j),A.U(A.b([new A.aF(1,B.w,A.be(j,j,j,B.x,j,j,!0,j,A.a7(A.b([A.a7(j,j,"Version "),A.a7(j,A.a9(j,j,j,j,j,j,j,j,j,j,j,j,j,j,B.a6,j,j,!0,j,j,j,j,j,j,j,j),"1.0.4")],t.VO),A.a9(j,j,B.v,j,j,j,j,j,j,j,j,13,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j),B.q,j,j,B.o,B.u),j)],i),B.e,B.E,B.i,0)],i),B.e,B.m,B.i,15),j),g.a,B.t,j,j,B.T),B.a_,!0),j,j,j,j)}}
 A.aoE.prototype={
 $0(){var s=0,r=A.o(t.H),q=this
 var $async$$0=A.k(function(a,b){if(a===1)return A.l(b,r)
