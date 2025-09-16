@@ -2,6 +2,6 @@ import 'dart:io';
 
 import 'package:dart_frog/dart_frog.dart';
 
-Response onRequest(RequestContext context) {
+Future<Response> onRequest(RequestContext context) async {
   return Response.movedPermanently(location: "/index.html");
 }
